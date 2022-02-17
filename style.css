@@ -14,7 +14,7 @@ footer{
      height: 280px;
      text-align:left;
      border: solid;
-     background-color: pink;
+     background-color: rgb(224, 215, 217);
      /* padding-top: 30px;   */
      font-size: 15px;
      }
@@ -23,7 +23,7 @@ footer{
         height: 170px;
         text-align:left;
         border: solid;
-        background-color: pink;
+        background-color: rgb(223, 217, 218);
         /* padding-top: 30px;   */
         font-size: 25px;
          position:sticky;
@@ -43,7 +43,7 @@ footer{
          text-align: left;
          float: left;
          border: solid;
-         background-color:rgb(152, 181, 219);
+         background-color:rgb(192, 219, 252);
          padding-top: 10px;
          font-size: 25px; 
           }        
@@ -60,13 +60,13 @@ footer{
            text-align: center;
            float:right;
            border: solid;
-           background-color: rgb(0, 255, 115);
+           background-color: rgb(207, 235, 245);
            padding-top: 10px;
            
           }
      .mediaproducts{
-         width: 50%;
-         height: 50%;
+         width: 35vw;
+         height: 60vw;
          float: left;
      }
      ol{
@@ -83,6 +83,13 @@ footer{
          margin-top: 0;
      }
      footer{
+      text-align:float;
+      border: solid;
+      background-color: rgb(156, 152, 153);
+      /* padding-top: 30px;   */
+      font-size: 25px;
+       position:sticky;
+       top: auto;
          display:inline-block
      }
      a:link
@@ -99,14 +106,14 @@ footer{
          text-decoration: underline;
      }
      a:link {
-         background-color:rgb(128, 46, 121);
+         background-color:rgb(255, 248, 254);
        }
        a:visited {
-         background-color:rgb(230, 173, 206);
+         background-color:rgb(255, 249, 253);
        }
        
        a:hover {
-         background-color: rgb(255, 0, 200);
+         background-color: rgb(253, 247, 252);
        }
        
        a:active {
@@ -129,7 +136,7 @@ footer{
    
    /* selected link */
    a:active {
-     color:magenta;
+     color:rgb(255, 247, 255);
    }
    .fa {
     padding: 20px;
